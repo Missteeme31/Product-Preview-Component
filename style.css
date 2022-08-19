@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+  
+/**box-sizing: border-box; {
+  padding: 0;
+  margin: 0;
+}*/
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  
+}
+
+img {
+  height: 100%;
+  width: 300px;
+  object-fit: cover;
+  
+
+
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20vh;
+  border-radius: 10px;
+  
+ 
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  
+}
+
+.card-details {
+  margin-left: 30px;
+  margin-top: 15px;
+  
+}
+
+.detail1 {
+  font-family: 'Montserrat', sans-serif; 
+   letter-spacing: 5px;
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  
+}
+
+.detail2 {
+  font-family: "Fraunces", serif;
+  width: 200px;
+  color: hsl(212, 21%, 14%);
+  line-height: 1;
+  
+}
+
+.detail3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  width: 230px;
+  color: hsl(228, 12%, 48%);
+}
+
+.detail4 {
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+  font-family: "Fraunces", serif;
+}
+
+.detail4 > h1 {
+  color: hsl(158, 36%, 37%);
+}
+
+span {
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+button {
+  width: 230px;
+  height: 50px;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
